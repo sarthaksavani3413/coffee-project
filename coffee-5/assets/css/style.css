@@ -1,0 +1,142 @@
+/* header-start */
+header {
+    background-color: #151515;
+}
+
+.btn-success {
+    background-color: #4D8B55 !important;
+}
+
+.text-success {
+    color: #4D8B55 !important;
+}
+
+.btn-success {
+    background-color: #4D8B55 !important;
+}
+
+ul li {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.nav-item {
+    font-weight: 700;
+}
+
+.nav-item a i {
+    font-size: 10px;
+}
+
+.nav-item :hover {
+    color: #4D8B55 !important;
+}
+
+.nav-link:hover i {
+    color: #4D8B55 !important;
+}
+
+nav ul li .dropdown {
+    visibility: hidden;
+    opacity: 0;
+    top: 100px;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+nav ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 80px;
+}
+
+.dropdown ul li:hover {
+    background-color: #4D8B55 !important;
+}
+
+.dropdown ul li:hover a {
+    color: #fff !important;
+}
+
+.border-secondary-subtle {
+    border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+nav ul li a i {
+    color: #4D8B55;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #4D8B55 !important;
+}
+
+nav ul li a:hover {
+    color: #4D8B55 !important;
+}
+
+.nav-link a:hover i {
+    color: #fff !important;
+}
+
+.navbar-collapse ul li a:hover {
+    color: #4D8B55 !important;
+}
+
+.nav-icon a i:hover {
+    color: #fff !important;
+}
+
+/* header-end */
+/* banner-start */
+.banner-cart {
+    background-image: url(../image/menu_parallax.jpg);
+    padding: 135px 15px;
+    background-color: rgba(0, 0, 0, 0.500);
+    background-blend-mode: darken;
+    background-size: cover;
+
+}
+
+.banner-cart h6 {
+    position: absolute;
+    transform: rotate(-90deg)
+}
+
+.banner-cart .banner-icon {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
+
+/* banner-end */
+
+/* cart start */
+
+a button {
+    width: 260px;
+    height: 65px;
+    background-color: #4D8B55;
+    padding: 22px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0;
+    transition: 0.5s;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+a button:hover {
+    background-color: #000;
+}
+
+/* cart end */
